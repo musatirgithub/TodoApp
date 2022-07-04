@@ -12,8 +12,9 @@ overflow: auto;
 }
 
 main > button{
+    display: block;
     margin: 1.5rem auto;
-    width: 20rem;
+    width: 18rem;
     height: 4rem;
     border: none;
     background-color: #012340;
@@ -31,18 +32,18 @@ form{
 
 form input{
     margin: 0 auto;
-    width: 20rem;
+    width: 18rem;
     height: 2.5rem;
     border: none;
     outline: none;
     border-bottom: 1px solid #012340;
     padding: 0 0.3rem;
-    background-color: #7C9EA6;
-    color: #d1d4d4;
+    background-color: #e2e5e5;
+    color: #363636;
 }
 
 ::placeholder {
-    color: #d1d4d4;
+    color: #a5a3a3;
     opacity: 1; /* Firefox */
   }
 

@@ -9,7 +9,7 @@ function App() {
   const [input, setInput] = useState('');
   const [tasks, setTasks] = useState(localTodos);
   const [dateTime, setDateTime] = useState('');
-  const [showTasks, setShowTasks] = useState(false);
+  const [showTasks, setShowTasks] = useState(true);
 
   useEffect(() => {
     localStorage.setItem('localTodos', JSON.stringify(tasks));
