@@ -3,6 +3,4 @@ Hi there ✋. In this project, I've created a To Do App using React. For the pro
 I used local storage,
 
 
-
-
 Gif image of the project is below. 👇 Hope you like the project!
